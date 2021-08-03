@@ -1,0 +1,109 @@
+/* common utility colors */
+
+.text-color{
+  color:tomato;
+}
+
+/* home page styles  */
+
+.card-container{
+  margin-top: 10vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.home-cards{
+  color: aliceblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:20vw;
+  background-color: slategray;
+  padding: 2%;
+}
+
+
+.count-row{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.link{
+  background-color: aliceblue;
+  text-decoration: none !important;
+  color: rgb(241, 118, 18);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius:10%;
+}
+.link:hover{
+  cursor: pointer;
+}
+
+
+
+/* details page  */
+
+/* home link button  */
+.home-link{
+  background-color: rgb(100, 145, 184);
+  text-decoration: none !important;
+  color: rgb(233, 233, 233);
+  font-weight: 600;
+  padding: 10px 20px;
+  margin:20px auto 0 24.5vw;
+  border-radius:10%;
+}
+.home-link:hover{  
+  cursor: pointer;
+}
+
+
+.details{
+  width:50%;
+  margin:20px auto;
+
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+
+  border: 2px solid black;
+}
+
+.title{
+  display: flex;
+  width: 40%;
+  align-items:baseline;
+  justify-content:space-around;
+}
+.details hr{
+  margin-left: 0;
+  margin-right: 0;
+  color: black;
+  width: 80%;
+}
+
+.meaning{
+  width: 80%;
+  margin-left: 0px;
+}
+.meaning div{
+  margin-left:50px
+}
+.meaning div hr{
+  width: 80%;
+  color: rgb(255, 69, 36);
+}
+
+.definition-example{
+  width: 80%;
+  margin-left:40px;
+
+}
