@@ -1,5 +1,5 @@
 ## Live Demo
-### https://sd-dictionary-api.netlify.app/home
+### https://sd-dictionary-api.netlify.app
 
 ## Available Scripts
 
